@@ -21,3 +21,5 @@ def set_data(data: Dict[str, Any]) -> None:
     existing_data.append(data)
     with open(FILE_PATH, "w") as f:
         json.dump(existing_data, f, indent=4)
+
+
